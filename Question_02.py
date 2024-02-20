@@ -7,9 +7,7 @@ while z < 4000000:
    z = (x+y)         
    if z%2 == 0:
        result = result + z
-
-   #next iteration
-
+       
    x = y
    y = z
 
